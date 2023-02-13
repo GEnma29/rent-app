@@ -6,7 +6,8 @@
     "sourceType": "module"
   },
   "rules": {
-    "max-len": ["error", 140],
-    "quotes": [2, "single", { "avoidEscape": true }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx",".ts", ".tsx"] }],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
   }
 }
